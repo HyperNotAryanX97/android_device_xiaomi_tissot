@@ -38,9 +38,9 @@ TARGET_GAPPS_ARCH := arm64
 TARGET_BOOT_ANIMATION_RES := 1080
 IS_PHONE := true
 
-# Inherit ShapeShiftOS Official build stuff.
-SSOS_BUILD_TYPE :=OFFICIAL
-TARGET_FACE_UNLOCK_SUPPORTED :=true
+# Inherit CherishOS Official build stuff.
+CHERISH_BUILD_TYPE := OFFICIAL
+CHERISH_WITHGAPPS=true
 
 PRODUCT_PRODUCT_PROPERTIES += \
      ro.ssos.cpu=msm8953
