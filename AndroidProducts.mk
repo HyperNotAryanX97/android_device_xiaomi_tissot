@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/ssos_tissot.mk
+    $(LOCAL_DIR)/cherish_tissot.mk
 
 COMMON_LUNCH_CHOICES := \ 
-    ssos_tissot-user \ 
-    ssos_tissot-userdebug \
-    ssos_tissot-eng
+    cherish_tissot-user \ 
+    cherish_tissot-userdebug \
+    cherish_tissot-eng
